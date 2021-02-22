@@ -187,3 +187,4 @@ class DLL:
         return string
 
 if __name__ == "__main__":
+    main()
