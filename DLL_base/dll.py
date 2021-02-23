@@ -42,7 +42,7 @@ class DLL:
                 new_node.prev = temp
                 temp.next = new_node  
                 if (new_node.next != None):
-                    new_node.next.prev = new_node        
+                    new_node.next.prev = new_node         
         return 
 
 
