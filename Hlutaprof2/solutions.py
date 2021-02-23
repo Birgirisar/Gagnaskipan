@@ -87,7 +87,20 @@ class DLL_Ordered:
             current.next = new_node 
             new_node.prev = current
 
-    
+        #node = DLL_Node(value)
+        #if self.header == None:
+        #    self.header = node
+        #    return
+        #elif self.header.next == None:
+        #    self.header.next = self.header
+        #    self.tailer = self.header
+        #    self.tailer.next = None
+        #    self.header = node
+        #    node.next = self.tailer
+        #    return
+        #node.next = self.header
+        #self.header = node
+        
     def get_range_in_SLL(self, min, max):
         # THIS OPERATION SHOULD RETURN A SINGLY-LINKED LIST
         # I.E. an instance of SLL_Node which is the first node in that list
