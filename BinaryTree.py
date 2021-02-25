@@ -25,7 +25,7 @@ class BinaryTree:
     def print_tree_recur(self, node):
         if node == None:
             return
-            
+
         #preorder
         print(node.data)
         self.print_tree_recur(node.left)
@@ -39,3 +39,4 @@ class BinaryTree:
 
 tree = BinaryTree()
 tree.populate_tree()
+tree.print_tree()
